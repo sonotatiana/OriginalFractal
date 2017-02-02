@@ -16,7 +16,7 @@ public void draw()
     {
       shootingSky[i].show();
     }
-    myFractal(50,300,250);
+    myFractal(80,450,350);
 }
 
 public void myFractal(int x, int y, int siz)
@@ -32,7 +32,6 @@ public void myFractal(int x, int y, int siz)
 		fill(205, 203, 190);
 		myFractal(x + siz/4, y - siz/2, siz/2 );
 		fill(223, 221, 200);
-		//myFractal(x + siz/4 , y - siz*2/3, siz/3 );
 	}
 }
 
